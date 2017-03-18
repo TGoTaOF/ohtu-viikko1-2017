@@ -37,7 +37,7 @@ public class VarastoTest {
         assertEquals(10, varasto3.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, varasto4.getSaldo(), vertailuTarkkuus);
         assertEquals(0, varasto4.getTilavuus(), vertailuTarkkuus);
-        assertEquals(5, varasto5.getSaldo(), vertailuTarkkuus);
+        assertEquals(7, varasto5.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
